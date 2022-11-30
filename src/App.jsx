@@ -1,9 +1,10 @@
-import { useState } from 'react'
+import { Post } from './Post';
 
-function App() {
+export function App() {
   return (
-    <h1>Hello World!</h1>
+    < Post
+      author="Bruno Marmello"
+      content="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque quisquam quo minima architecto, odit, tenetur esse nobis optio non vitae voluptatem rerum amet ipsam, necessitatibus dolorem eveniet dicta nam corrupti?"
+    />
   )
 }
-
-export default App
